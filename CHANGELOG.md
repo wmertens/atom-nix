@@ -1,3 +1,8 @@
+## 2.1.0 - Comma fight
+
+- Converted from sublime-nix
+- Fixed comma-first function parameter definition but that was not a problem on Atom
+
 ## 2.0.0 - Grammar School
 
 - Converted from sublime-nix
