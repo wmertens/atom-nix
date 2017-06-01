@@ -1,3 +1,7 @@
+## 2.3.0 - Long time no convert
+
+- Converted from sublime-nix v2.3
+
 ## 2.1.0 - Comma fight
 
 - Converted from sublime-nix
