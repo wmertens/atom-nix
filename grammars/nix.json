@@ -1,13 +1,13 @@
 {
     "name": "Nix",
     "scopeName": "source.nix",
-    "patterns": [{
-        "include": "#expression"
-    }],
     "fileTypes": [
         "nix"
     ],
     "uuid": "0514fd5f-acb6-436d-b42c-7643e6d36c8f",
+    "patterns": [{
+        "include": "#expression"
+    }],
     "repository": {
         "expression": {
             "patterns": [{
@@ -541,7 +541,7 @@
             ]
         },
         "with-assert": {
-            "begin": "(?![\\w-'])(with|assert)(?![\\w-'])",
+            "begin": "(?![\\w'-])(with|assert)(?![\\w'-])",
             "beginCaptures": {
                 "0": {
                     "name": "keyword.other.nix"
@@ -1065,7 +1065,7 @@
             ]
         },
         "bad-reserved": {
-            "match": "(?![\\w-'])(if|then|else|assert|with|let|in|rec|inherit)(?![\\w-'])",
+            "match": "(?![\\w'-])(if|then|else|assert|with|let|in|rec|inherit)(?![\\w'-])",
             "name": "invalid.illegal.reserved.nix"
         }
     }

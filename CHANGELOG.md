@@ -1,3 +1,7 @@
+## 2.3.1 - Regex fun
+
+- typo in the regexes caused valid code to be invalid
+
 ## 2.3.0 - Long time no convert
 
 - Converted from sublime-nix v2.3
