@@ -1,3 +1,7 @@
+## 2.3.2 - Line comments
+
+- Use line comments by default, thands @Nadrieril
+
 ## 2.3.1 - Regex fun
 
 - typo in the regexes caused valid code to be invalid

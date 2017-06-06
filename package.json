@@ -1,6 +1,6 @@
 {
   "name": "nix",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "main": "./only-grammar",
   "description": "Nix syntax highlighter",
   "repository": "https://github.com/wmertens/atom-nix",
