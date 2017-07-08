@@ -541,7 +541,7 @@
             ]
         },
         "with-assert": {
-            "begin": "(?![\\w'-])(with|assert)(?![\\w'-])",
+            "begin": "(?<![\\w'-])(with|assert)(?![\\w'-])",
             "beginCaptures": {
                 "0": {
                     "name": "keyword.other.nix"
@@ -1065,7 +1065,7 @@
             ]
         },
         "bad-reserved": {
-            "match": "(?![\\w'-])(if|then|else|assert|with|let|in|rec|inherit)(?![\\w'-])",
+            "match": "(?<![\\w'-])(if|then|else|assert|with|let|in|rec|inherit)(?![\\w'-])",
             "name": "invalid.illegal.reserved.nix"
         }
     }

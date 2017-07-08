@@ -1,3 +1,7 @@
+## 2.3.3 - Fix grammar
+
+- Apply @demin-dmitriy's fix from sublime-nix
+
 ## 2.3.2 - Line comments
 
 - Use line comments by default, thands @Nadrieril
